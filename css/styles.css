@@ -1,0 +1,22 @@
+body {
+    font-family: 'Lato', sans-serif;
+    color: #747704;
+}
+
+h1{
+    font-weight: 300;
+    font-size: 3em;
+}
+
+h3{
+    font-weight: 400;
+    font-size: 1.5em;
+}
+
+.logo img{
+    padding-top: 2em;
+}
+
+.padright {
+    margin-right: 30px;
+}
