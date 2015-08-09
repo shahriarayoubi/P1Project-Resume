@@ -21,9 +21,6 @@ h3{
     padding-top: 2em;
 }
 
-.padright {
-    margin-right: 30px;
-}
 
 .projects {
     border: solid 10px red;
@@ -31,4 +28,13 @@ h3{
 
 img, embed {
     max-width: 100%;
+}
+
+.project a {
+    font-size: 0.8em;
+}
+
+.project p {
+    font-size: 2em;
+    color: #747704;
 }
