@@ -3,7 +3,11 @@ body {
     color: #747704;
 }
 
-h1{
+hr {
+    border: 2px solid #BCBBBB;  
+}
+
+h1 {
     font-weight: 300;
     font-size: 1.8em;
 }
@@ -14,12 +18,12 @@ h2 {
     color: #BCBBBB;
 }
 
-h3{
+h3 {
     font-weight: 400;
     font-size: 1.2em;
 }
 
-.logo{
+.logo {
     padding-top: 2em;
 }
 
@@ -27,10 +31,12 @@ img, embed {
     max-width: 100%;
 }
 
+/* Set the default font size for all a tags within the project class */
 .project a {
     font-size: 1em;
 }
 
+/* Set the default font size for all paragraphs within the project class */
 .project p {
     font-size: 1.4em;
     color: #747704;

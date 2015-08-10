@@ -1,4 +1,6 @@
-h1{
+/* Customise CSS when screen size over 500 pixels */
+
+h1 {
     font-weight: 300;
     font-size: 3em;
 }
@@ -9,15 +11,17 @@ h2 {
     color: #BCBBBB;
 }
 
-h3{
+h3 {
     font-weight: 400;
     font-size: 1.5em;
 }
 
+/* Increase the default font size for all a tags within the project class when screen is over 500 pixels wide*/
 .project a {
     font-size: 1.4em;
 }
 
+/* Increase the default font size for all paragraphs within the project class when screen is over 500 pixels wide*/
 .project p {
     font-size: 2em;
     color: #747704;
