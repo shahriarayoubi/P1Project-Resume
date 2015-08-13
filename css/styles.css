@@ -1,43 +1,46 @@
 body {
-    font-family: 'Lato', sans-serif;
+    font-family: "Lato", sans-serif;
     color: #747704;
 }
 
 hr {
-    border: 2px solid #BCBBBB;  
+    border: 2px solid #bcbbbb;
 }
 
 h1 {
-    font-weight: 300;
-    font-size: 1.8em;
+    font: 300 1.8em "Lato", sans-serif;
 }
 
 h2 {
-    font-weight: 300;
-    font-size: 1.8em;
-    color: #BCBBBB;
+    font: 300 1.8em "Lato", sans-serif;
+    color: #bcbbbb;
 }
 
 h3 {
-    font-weight: 400;
-    font-size: 1.2em;
+    font: 400 1.2em  "Lato", sans-serif;
 }
 
 .logo {
-    padding-top: 2em;
+    padding: 2em 0 0;
 }
 
-img, embed {
-    max-width: 100%;
-}
-
-/* Set the default font size for all a tags within the project class */
-.project a {
+/* Set the default font size for all a tags within the project-a class */
+.project-a {
     font-size: 1em;
 }
 
-/* Set the default font size for all paragraphs within the project class */
-.project p {
+/* Set the default font size for all paragraphs within the project-p class */
+.project-p {
     font-size: 1.4em;
     color: #747704;
+}
+
+/* Apply special styling for all <a> tags for modals. Do not want any default special effects. */
+.hrefModal,
+.project-p a:focus,
+.project-p a:after,
+.project-p a:hover {
+    color: #747704;
+    text-decoration: none;
+    outline: 0;
 }

@@ -1,28 +1,26 @@
 /* Customise CSS when screen size over 500 pixels */
 
 h1 {
-    font-weight: 300;
-    font-size: 3em;
+    font: 300 3em "Lato", sans-serif;
 }
 
 h2 {
-    font-weight: 300;
-    font-size: 3em;
-    color: #BCBBBB;
+    font: 300 3em "Lato", sans-serif;
+    color: #bcbbbb;
 }
 
 h3 {
-    font-weight: 400;
-    font-size: 1.5em;
+    font: 400 1.5em "Lato", sans-serif;
 }
 
 /* Increase the default font size for all a tags within the project class when screen is over 500 pixels wide*/
-.project a {
+.project-a {
     font-size: 1.4em;
 }
 
 /* Increase the default font size for all paragraphs within the project class when screen is over 500 pixels wide*/
-.project p {
+.project-p {
     font-size: 2em;
     color: #747704;
 }
+
