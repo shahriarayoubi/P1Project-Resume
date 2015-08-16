@@ -36,10 +36,10 @@ h3 {
 }
 
 /* Apply special styling for all <a> tags for modals. Do not want any default special effects. */
-.hrefModal,
 .project-p a:focus,
 .project-p a:after,
-.project-p a:hover {
+.project-p a:hover,
+.project-p a:visited {
     color: #747704;
     text-decoration: none;
     outline: 0;
